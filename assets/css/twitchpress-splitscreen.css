@@ -1,0 +1,11 @@
+/* Create two equal columns that floats next to each other */
+.twitchpress_splitscreen_column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.twitchpress_splitscreen_row:after {
+  display: table;
+}
